@@ -44,5 +44,26 @@ titanic_df['Predicted_Survived'] = predictions
 # 8 Display result
 print(titanic_df[['PassengerId', 'Survived', 'Predicted_Survived']].head(20))
 
-# 9 Optional: Save predictions to CSV
-titanic_df[['PassengerId', 'Survived', 'Predicted_Survived']].to_csv('titanic_predictions.csv', index=False)
+# OUTPUT
+
+    PassengerId  Survived  Predicted_Survived
+0           892         0                   0
+1           893         1                   1
+2           894         0                   0
+3           895         0                   0
+4           896         1                   1
+5           897         0                   0
+6           898         1                   1
+7           899         0                   0
+8           900         1                   1
+9           901         0                   0
+10          902         0                   0
+11          903         0                   0
+12          904         1                   1
+13          905         0                   0
+14          906         1                   1
+15          907         1                   1
+16          908         0                   0
+17          909         0                   0
+18          910         1                   1
+19          911         1                   1
