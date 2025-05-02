@@ -8,7 +8,7 @@ scaler = joblib.load('titanic_scaler.joblib')
 
 
 # 2 Load the cleaned Titanic dataset (assuming it's already preprocessed)
-titanic_df = pd.read_csv('tested.csv')  # update filename if needed
+titanic_df = pd.read_csv('tested.csv') 
 
 # 3 Perform the same preprocessing steps:
 
